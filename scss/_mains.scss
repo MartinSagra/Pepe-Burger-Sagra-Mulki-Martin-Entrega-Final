@@ -15,7 +15,7 @@ body{
 	font-size: 70px;
 	font-weight: 300;
 	text-align: center;
-	margin: 50px;
+	margin: 30px;
 }
 @media screen and (max-width:1920px) and (min-width:1300px){
 	.carousel-item{
@@ -24,32 +24,6 @@ body{
 	}
 }
 
-.containerGrid {
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-	color: black;
-	height: 60vh;
-	padding: 10px;
-	gap: 10px
-}
-@media screen and (max-width: 424px){
-.containerGrid{
-	grid-template-columns: 100px 175px 80px;
-	height: 70vh;
-	gap: 5px
-}
-}
-@media screen and (max-width: 380px){
-.containerGrid{
-	grid-template-columns: 70px 160px 70px;
-	height: 75vh;
-	}
-#titulos{
-	font-size: 40px;
-	margin: 70px;
-}
-}
 .card {
     font-size: 1.5em;
     overflow: hidden;
@@ -70,12 +44,19 @@ body{
   }
 }
 .formulario{
-	padding: 15px;
+	color:white;
+	padding: 20px;
+	background-color: #0000009c;
+	border: 1px solid;
+	margin:1rem;
 }
+
 .mapa{
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
+  height: 60vh;
+  width: 100%;
+}
+.row{
+	--bs-gutter-x: 0;
 }
 %wspp{
 	position: fixed;
